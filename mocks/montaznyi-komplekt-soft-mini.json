@@ -1,0 +1,292 @@
+{
+    "data": {
+        "id": 287,
+        "alias": "montaznyi-komplekt-soft-mini",
+        "title": "Монтажный комплект СОФТ мини",
+        "type": "series",
+        "is_new": true,
+        "images": [{
+            "name": "black",
+            "image": "public\/images\/category\/montaznyi-komplekt-soft-mini_black.webp"
+        }, {
+            "name": "white",
+            "image": "public\/images\/category\/montaznyi-komplekt-soft-mini_white.webp"
+        }, {
+            "name": "gold",
+            "image": "public\/images\/category\/montaznyi-komplekt-soft-mini_gold.webp"
+        }],
+        "ip_class": null,
+        "videos": null,
+        "files": [],
+        "description": "<p>Модульные светильники — это эффективное решение для точечного и общего освещения. Сочетают в себе преимущества стандартизации с преимуществами настройки. Создают возможность быстрого обновления, адаптивны к интерьеру и удобны в обслуживании. Расширяют границы производительности при создании хорошего светодизайна.<\/p>",
+        "badges": ["Новый"],
+        "gallery": [],
+        "fields": {
+            "armature_color": [{
+                "value": "Чёрный",
+                "products": [763]
+            }, {
+                "value": "Латунь",
+                "products": [764]
+            }, {
+                "value": "Белый",
+                "products": [765]
+            }]
+        },
+        "translate": {
+            "armature_color": "Цвет"
+        },
+        "specifications": {
+            "Тип упаковки": "PAP (код 20)",
+            "Производитель": "Technolight®",
+            "Оптика": "Состав линз из поликарбоната, угол рассеивания — 60° , UGR<16.",
+            "Тип монтажа": "Светильники легко устанавливаются в трек. Держатся за счет магнитов и механических фиксаторов. Напряжение питания — 48В.",
+            "Конструкция": "Литьевой корпус из алюминия с порошковым покрытием черного (RAL 9005) цвета, поворотный механизм, магнитное крепление и механические фиксаторы для установки в трек, оптическое решение Cloud Lens для высокого качества света.",
+            "Дополнительно": "Ознакомьтесь с инструкцией по установке светильников до начала использования. Инструкция поставляется в комплекте вместе со светильником.",
+            "Источник света": "LED Citizen, 18Вт, 1260-1340лм, 3000К и 4000К CRI 93+.",
+            "Степень защиты": "IP20",
+            "Регулировка яркости": "Недиммируемые, аналоговый 1-10В, цифровой протокол DALI."
+        },
+        "characteristics": [
+            "power",
+            "light_flow",
+            "light_temperatures",
+            "color_rendering_index",
+            "ripple_factor",
+            "input_voltage_v",
+            "light_angle",
+            "ugr",
+            "type_of_instalation",
+            "tip_upravleniya",
+            "ip_class",
+            "height",
+            "width",
+            "length",
+            "diameter",
+            "armature_color",
+            "weight_netto"
+        ],
+        "units": {
+            "light_temperatures": " K",
+            "power": " Вт",
+            "light_flow": " Лм",
+            "color_rendering_index": "+",
+            "input_voltage_v": " B",
+            "light_angle": "°",
+            "ip_class": " IP",
+            "height": " см",
+            "width": " см",
+            "length": " см",
+            "diameter": " см",
+            "weight_netto": " кг"
+        },
+        "products_available": [{
+            "article": "50001-BK",
+            "id": 542,
+            "image": "https://aws.technolight.ru/databus/products/technolight/166026/big/86808-3k-01-bk.jpg?v=1728979268",
+            "article_id": 166026,
+            "title": "Глобо 135 подвесной 48В 8Вт 590лм 3000К 93+ 270° недиммируемый RAL 9005 черный",
+            "price": 11990,
+            "old_price": 0,
+            "sale": false,
+            "description": "<p>Светильники серии ГЛОБО - это минималистич-\nное решение для интерьера.</p>\n<p>Простой и элегантный светильник в форме шара выполнен из стекла с эффектом софт-тач. Сплошной матовый рассеиватель.</p>\n<p>Глобо 135 полностью исключает слепящий эффект и обеспечивает широкий угол освещения в 270°, гарантируя мягкое распределение света. Светильник представлен в двух вариациях — встраиваемый в трек\nи подвесной.</p>\n<p>Продуманный механизм регулировки высоты подвеса позволяет без труда разместить светильник по вашему замыслу, выстроив нужное освещение и композицию из нескольких шаров. Технологичный внутри и классической формы снаружи, светильник Глобо 135 подчеркивает характер жилого пространства, создает нужную тмосферу, делая помещение камерным и уютным.</p>",
+            "ignore_errors": 0,
+            "tip_upravleniya": "NO DIM",
+            "armature_color": "Чёрный",
+            "light_temperatures": 3000,
+            "power": 8,
+            "light_flow": 590,
+            "color_rendering_index": 93,
+            "ripple_factor": "<5%",
+            "input_voltage_v": 48,
+            "light_angle": 270,
+            "ugr": "<16",
+            "type_of_instalation": null,
+            "ip_class": 20,
+            "height": 200,
+            "width": 17.3,
+            "length": 11.6,
+            "diameter": 13.5,
+            "weight_netto": 0.08,
+            "drawings": [
+                "https://aws.technolight.ru/technolight/public/images/drawings/86808-3K-01-BK.svg?v=1728979268"
+            ],
+            "root": [
+                "Системы"
+            ],
+            "collection": [
+                "PROFI 48"
+            ],
+            "category": [
+                "Светильники"
+            ],
+            "series": [
+                "Глобо 135 подвесной"
+            ],
+            "accessories": [],
+            "tags": [],
+            "ban_sale": false,
+            "configuratorLink": null
+        },
+        {
+            "id": 657,
+            "image": "https://aws.technolight.ru/databus/products/technolight/166143/big/87018-4k-01-bk.jpg?v=1728979268",
+            "article_id": 166143,
+            "article": "87018-4K-01-BK",
+            "title": "Мун 100 48В 18Вт 1240лм 4000К 93+ 60° недиммируемый RAL 9005 черный",
+            "price": 8600,
+            "old_price": 0,
+            "sale": false,
+            "description": "<p>Мун 100 — необычное решение в серии магнитных трековых светильников серии PROFI 48V. Плоская форма светильника выделяется среди классических и привычных спотов.</p>\n<p>Высота корпуса светильника —всего 34 мм, что является самым компактным размером из представленных на рынке. Поворотный механизм позволяет направлять поток света, расставляя акценты по вашему желанию.</p>\n<p>Новые технологии и оптическое решение Cloud Lens создают равномерное, без резких переходов света и дифракций на краях световое пятно.</p>\n<p>Сферическая линза и хаотичный порядок элементов Cloud Lens мягко рассеивают свет, создавая качественное освещение. Цветные светофильтры позволяют задать световому лучу нужный для решения поставленных сценических задач цвет, сохраняя при этом хороший световой поток.</p>",
+            "ignore_errors": 0,
+            "tip_upravleniya": "NO DIM",
+            "armature_color": "Чёрный",
+            "light_temperatures": 4000,
+            "power": 18,
+            "light_flow": 1240,
+            "color_rendering_index": 93,
+            "ripple_factor": "<5%",
+            "input_voltage_v": 48,
+            "light_angle": 60,
+            "ugr": "<16",
+            "type_of_instalation": null,
+            "ip_class": 20,
+            "height": 9.3,
+            "width": 17.3,
+            "length": 3.4,
+            "diameter": 10,
+            "weight_netto": 0.48,
+            "pivot": {
+                "product_category_id": 24,
+                "product_id": 657
+            },
+            "drawings": [
+                "https://aws.technolight.ru/technolight/public/images/drawings/87018-3K-01-BK.svg?v=1728979268"
+            ],
+            "link": null,
+            "root": [
+                "Системы"
+            ],
+            "collection": [
+                "PROFI 48"
+            ],
+            "category": [
+                "Светильники"
+            ],
+            "series": [
+                "Мун 100"
+            ],
+            "accessories": [],
+            "tags": [],
+            "ban_sale": false,
+            "configuratorLink": null
+        },
+        {
+            "id": 659,
+            "image": "https://aws.technolight.ru/databus/products/technolight/166145/big/87018-3k-03-bk.jpg?v=1728979268",
+            "article_id": 166145,
+            "article": "87018-3K-03-BK",
+            "title": "Мун 100 48В 18Вт 1160лм 3000К 93+ 60° диммирование 1-10В RAL 9005 черный",
+            "price": 10900,
+            "old_price": 0,
+            "sale": false,
+            "description": "<p>Мун 100 — необычное решение в серии магнитных трековых светильников серии PROFI 48V. Плоская форма светильника выделяется среди классических и привычных спотов.</p>\n<p>Высота корпуса светильника —всего 34 мм, что является самым компактным размером из представленных на рынке. Поворотный механизм позволяет направлять поток света, расставляя акценты по вашему желанию.</p>\n<p>Новые технологии и оптическое решение Cloud Lens создают равномерное, без резких переходов света и дифракций на краях световое пятно.</p>\n<p>Сферическая линза и хаотичный порядок элементов Cloud Lens мягко рассеивают свет, создавая качественное освещение. Цветные светофильтры позволяют задать световому лучу нужный для решения поставленных сценических задач цвет, сохраняя при этом хороший световой поток.</p>",
+            "ignore_errors": 0,
+            "tip_upravleniya": "1-10В",
+            "armature_color": "Чёрный",
+            "light_temperatures": 3000,
+            "power": 18,
+            "light_flow": 1160,
+            "color_rendering_index": 93,
+            "ripple_factor": "<5%",
+            "input_voltage_v": 48,
+            "light_angle": 60,
+            "ugr": "<16",
+            "type_of_instalation": null,
+            "ip_class": 20,
+            "height": 9.3,
+            "width": 17.3,
+            "length": 3.4,
+            "diameter": 10,
+            "weight_netto": 0.48,
+            "pivot": {
+                "product_category_id": 24,
+                "product_id": 659
+            },
+            "drawings": [
+                "https://aws.technolight.ru/technolight/public/images/drawings/87018-3K-01-BK.svg?v=1728979268"
+            ],
+            "link": null,
+            "root": [
+                "Системы"
+            ],
+            "collection": [
+                "PROFI 48"
+            ],
+            "category": [
+                "Светильники"
+            ],
+            "series": [
+                "Мун 100"
+            ],
+            "accessories": [],
+            "tags": [],
+            "ban_sale": false,
+            "configuratorLink": null
+        },
+        {
+            "id": 660,
+            "image": "https://aws.technolight.ru/databus/products/technolight/166146/big/87018-3k-04-bk.jpg?v=1728979268",
+            "article_id": 166146,
+            "article": "87018-3K-04-BK",
+            "title": "Мун 100 48В 18Вт 1160лм 3000К 93+ 60° диммирование DALI RAL 9005 черный",
+            "price": 11600,
+            "old_price": 0,
+            "sale": false,
+            "description": "<p>Мун 100 — необычное решение в серии магнитных трековых светильников серии PROFI 48V. Плоская форма светильника выделяется среди классических и привычных спотов.</p>\n<p>Высота корпуса светильника —всего 34 мм, что является самым компактным размером из представленных на рынке. Поворотный механизм позволяет направлять поток света, расставляя акценты по вашему желанию.</p>\n<p>Новые технологии и оптическое решение Cloud Lens создают равномерное, без резких переходов света и дифракций на краях световое пятно.</p>\n<p>Сферическая линза и хаотичный порядок элементов Cloud Lens мягко рассеивают свет, создавая качественное освещение. Цветные светофильтры позволяют задать световому лучу нужный для решения поставленных сценических задач цвет, сохраняя при этом хороший световой поток.</p>",
+            "ignore_errors": 0,
+            "tip_upravleniya": "DALI",
+            "armature_color": "Чёрный",
+            "light_temperatures": 3000,
+            "power": 18,
+            "light_flow": 1160,
+            "color_rendering_index": 93,
+            "ripple_factor": "<5%",
+            "input_voltage_v": 48,
+            "light_angle": 60,
+            "ugr": "<16",
+            "type_of_instalation": null,
+            "ip_class": 20,
+            "height": 9.3,
+            "width": 17.3,
+            "length": 3.4,
+            "diameter": 10,
+            "weight_netto": 0.48,
+            "pivot": {
+                "product_category_id": 24,
+                "product_id": 660
+            },
+            "drawings": [
+                "https://aws.technolight.ru/technolight/public/images/drawings/87018-3K-01-BK.svg?v=1728979268"
+            ],
+            "link": null,
+            "root": [
+                "Системы"
+            ],
+            "collection": [
+                "PROFI 48"
+            ],
+            "category": [
+                "Светильники"
+            ],
+            "series": [
+                "Мун 100"
+            ],
+            "accessories": [],
+            "tags": [],
+            "ban_sale": false,
+            "configuratorLink": null
+        }]
+    },
+    "is_admin":true
+}
