@@ -22,7 +22,7 @@
     </script>
     <script>
       // Массив терминов для Информера
-      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты"];
+      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты", "Дарк", "Слим"];
 
       // Дефолтный API URL для корзины
       window.cartLink = "https://anaragaev.github.io/technolight.layout/cart.html";
@@ -31,14 +31,15 @@
       window.productDataLink = "https://anaragaev.github.io/technolight.layout/mocks/montaznyi-komplekt-soft-mini.json";
 
       // Дефолтный API URL дотов с рамкой и без рамки
-      window.dotsDataLink = "https://anaragaev.github.io/technolight.layout/mocks/";
-      (function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has("border")) window.dotsDataLink += "dots-border.json";
-        else if (urlParams.has("mini")) window.dotsDataLink += "dots-mini.json";
-        else if (urlParams.has("double")) window.dotsDataLink += "dots-double-border.json";
-        else window.dotsDataLink += "dots.json";
-      })();
+      window.dotsDataLink = "/mocks/dots.json";
+      // window.dotsDataLink = 'https://anaragaev.github.io/technolight.layout/mocks/';
+      //(function() {
+      //    const urlParams = new URLSearchParams(window.location.search);
+      //    if (urlParams.has('border')) window.dotsDataLink += 'dots-border.json';
+      //    else if (urlParams.has('mini')) window.dotsDataLink += 'dots-mini.json';
+      //    else if (urlParams.has('double')) window.dotsDataLink += 'dots-double-border.json';
+      //    else window.dotsDataLink += 'dots.json';
+      //})()
 
       // API URL файлы для скачивания
       window.DownloadFilesDataLink = "https://s3files.technolight.ru/api/link?domain=technolight.ru";
@@ -338,12 +339,6 @@
                     <source media="(min-width: 1200px)" srcset="https://aws.massive.ru/technolight/images/billboard/poster-4-desc.jpg" >
                     <img src="https://aws.massive.ru/technolight/images/billboard/poster-4-desc.jpg" loading="lazy" alt="" >
                   </picture>
-                  <div class="billboard__link">
-                    <a class="btn btn_billboard" href="#">
-                      <span>Подробнее</span>
-                      <i class="one"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -355,12 +350,6 @@
                     <source media="(min-width: 1200px)" srcset="https://aws.massive.ru/technolight/images/billboard/poster-3-desc.jpg" >
                     <img src="https://aws.massive.ru/technolight/images/billboard/poster-3-desc.jpg" loading="lazy" alt="" >
                   </picture>
-                  <div class="billboard__link">
-                    <a class="btn btn_billboard" href="#">
-                      <span>Подробнее</span>
-                      <i class="two"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -371,12 +360,6 @@
                     <source media="(min-width: 1200px)" srcset="https://aws.massive.ru/technolight/images/billboard/poster-2-desc.jpg" >
                     <img src="https://aws.massive.ru/technolight/images/billboard/poster-2-desc.jpg" loading="lazy" alt="" >
                   </picture>
-                  <div class="billboard__link">
-                    <a class="btn btn_billboard" href="#">
-                      <span>Подробнее</span>
-                      <i class="three"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -388,12 +371,6 @@
                     <source media="(min-width: 1200px)" srcset="https://aws.massive.ru/technolight/images/billboard/poster-6-desc.jpg" >
                     <img src="https://aws.massive.ru/technolight/images/billboard/poster-6-desc.jpg" loading="lazy" alt="" >
                   </picture>
-                  <div class="billboard__link">
-                    <a class="btn btn_billboard" href="#">
-                      <span>Подробнее</span>
-                      <i class="four"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -405,9 +382,9 @@
                     <img src="https://aws.massive.ru/technolight/images/billboard/poster-7-desc.jpg" loading="lazy" alt="" >
                   </picture>
                   <div class="billboard__link">
-                    <a class="btn btn_billboard" href="#">
-                      <span>Подробнее</span>
-                      <i class="five"></i>
+                    <a class="btn btn_billboard" href="https://technolight.ru/" target="_blank">
+                      <i></i>
+                      <span>Посмотреть DOT 220V</span>
                     </a>
                   </div>
                 </div>
@@ -714,7 +691,7 @@
             <div class="footer__location-socials">
               <a class="social social_telegram" href="https://t.me/technolight_official" target="_blank"></a>
               <a class="social social_vk" href="https://vk.com/technolightru" target="_blank"></a>
-              <a class="social social_youtube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
+              <a class="social social_rutube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
             </div>
           </div>
         </div>
