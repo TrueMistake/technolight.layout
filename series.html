@@ -22,7 +22,7 @@
     </script>
     <script>
       // Массив терминов для Информера
-      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты"];
+      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты", "Дарк", "Слим"];
 
       // Дефолтный API URL для корзины
       window.cartLink = "https://anaragaev.github.io/technolight.layout/cart.html";
@@ -31,17 +31,19 @@
       window.productDataLink = "https://anaragaev.github.io/technolight.layout/mocks/montaznyi-komplekt-soft-mini.json";
 
       // Дефолтный API URL дотов с рамкой и без рамки
-      window.dotsDataLink = "https://anaragaev.github.io/technolight.layout/mocks/";
-      (function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has("border")) window.dotsDataLink += "dots-border.json";
-        else if (urlParams.has("mini")) window.dotsDataLink += "dots-mini.json";
-        else if (urlParams.has("double")) window.dotsDataLink += "dots-double-border.json";
-        else window.dotsDataLink += "dots.json";
-      })();
+      window.dotsDataLink = "/mocks/dots.json";
+      // window.dotsDataLink = 'https://anaragaev.github.io/technolight.layout/mocks/';
+      //(function() {
+      //    const urlParams = new URLSearchParams(window.location.search);
+      //    if (urlParams.has('border')) window.dotsDataLink += 'dots-border.json';
+      //    else if (urlParams.has('mini')) window.dotsDataLink += 'dots-mini.json';
+      //    else if (urlParams.has('double')) window.dotsDataLink += 'dots-double-border.json';
+      //    else window.dotsDataLink += 'dots.json';
+      //})()
 
       // API URL файлы для скачивания
       window.DownloadFilesDataLink = "https://s3files.technolight.ru/api/link?domain=technolight.ru";
+      window.DownloadVideosDataLink = "/mocks/video.json";
 
       // API URL для получения корзины (Используется в Реактивном компоненте Продукта)
       window.getCartLink = "https://anaragaev.github.io/technolight.layout/mocks/cart-get.json";
@@ -520,6 +522,7 @@
                         <li class="cards-series__tab cards-series__tab_white" data-target-type="white"></li>
                         <li class="cards-series__tab cards-series__tab_black-white" data-target-type="black-white"></li>
                       </ul>
+                      <div class="cards-series__power">9 Вт</div>
                       <div class="cards-series__badge-list">
                         <div class="cards-series__badge-item cards-series__badge-item_waterproof">
                           IP 44
@@ -541,6 +544,7 @@
                         <li class="cards-series__tab cards-series__tab_white" data-target-type="white"></li>
                         <li class="cards-series__tab cards-series__tab_black-white" data-target-type="black-white"></li>
                       </ul>
+                      <div class="cards-series__power">12 Вт</div>
                     </div>
                     <p class="cards-series__signature">Спот 50</p>
                   </a>
@@ -554,6 +558,7 @@
                         <li class="cards-series__tab cards-series__tab_black active" data-target-type="black"></li>
                         <li class="cards-series__tab cards-series__tab_white" data-target-type="white"></li>
                       </ul>
+                      <div class="cards-series__power">6 Вт</div>
                     </div>
                     <p class="cards-series__signature">Спот Зум 50</p>
                   </a>
@@ -567,6 +572,7 @@
                         <li class="cards-series__tab cards-series__tab_black active" data-target-type="black"></li>
                         <li class="cards-series__tab cards-series__tab_white" data-target-type="white"></li>
                       </ul>
+                      <div class="cards-series__power">15 Вт</div>
                     </div>
                     <p class="cards-series__signature">Спот 60</p>
                   </a>
@@ -1279,7 +1285,7 @@
             <div class="footer__location-socials">
               <a class="social social_telegram" href="https://t.me/technolight_official" target="_blank"></a>
               <a class="social social_vk" href="https://vk.com/technolightru" target="_blank"></a>
-              <a class="social social_youtube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
+              <a class="social social_rutube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
             </div>
           </div>
         </div>
@@ -1536,6 +1542,15 @@
           <h3 class="modal__title">Заказ успешно отправлен</h3>
           <p class="modal__subtitle">Наш менеджер перезвонит Вам в ближайшее время</p>
           <span class="modal__check"></span>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-video hide" id="modalVideo">
+      <div class="modal__dialog">
+        <div class="modal__close"><button type="button" data-modal data-modal-action="close"></button></div>
+        <div class="modal__header">
+          <h3 class="modal__title"></h3>
+          <div class="modal__video"></div>
         </div>
       </div>
     </div>

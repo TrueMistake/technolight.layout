@@ -22,7 +22,7 @@
     </script>
     <script>
       // Массив терминов для Информера
-      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты"];
+      window.terms = ["Форма", "МОЩНОСТЬ", "степень защиты", "Дарк", "Слим"];
 
       // Дефолтный API URL для корзины
       window.cartLink = "https://anaragaev.github.io/technolight.layout/cart.html";
@@ -31,17 +31,19 @@
       window.productDataLink = "https://anaragaev.github.io/technolight.layout/mocks/montaznyi-komplekt-soft-mini.json";
 
       // Дефолтный API URL дотов с рамкой и без рамки
-      window.dotsDataLink = "https://anaragaev.github.io/technolight.layout/mocks/";
-      (function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has("border")) window.dotsDataLink += "dots-border.json";
-        else if (urlParams.has("mini")) window.dotsDataLink += "dots-mini.json";
-        else if (urlParams.has("double")) window.dotsDataLink += "dots-double-border.json";
-        else window.dotsDataLink += "dots.json";
-      })();
+      window.dotsDataLink = "/mocks/dots.json";
+      // window.dotsDataLink = 'https://anaragaev.github.io/technolight.layout/mocks/';
+      //(function() {
+      //    const urlParams = new URLSearchParams(window.location.search);
+      //    if (urlParams.has('border')) window.dotsDataLink += 'dots-border.json';
+      //    else if (urlParams.has('mini')) window.dotsDataLink += 'dots-mini.json';
+      //    else if (urlParams.has('double')) window.dotsDataLink += 'dots-double-border.json';
+      //    else window.dotsDataLink += 'dots.json';
+      //})()
 
       // API URL файлы для скачивания
       window.DownloadFilesDataLink = "https://s3files.technolight.ru/api/link?domain=technolight.ru";
+      window.DownloadVideosDataLink = "/mocks/video.json";
 
       // API URL для получения корзины (Используется в Реактивном компоненте Продукта)
       window.getCartLink = "https://anaragaev.github.io/technolight.layout/mocks/cart-get.json";
@@ -336,56 +338,56 @@
                   <div class="cart__caption"><h2 class="cart__title">DOT в сборе</h2></div>
                   <ul class="cart__list">
                     <li>
-                      <mark>{1}</mark>
+                      <mark>1</mark>
                       <span>
                         <em>46001-F1</em>
                         — Светофильтр Ханикомб 42
                       </span>
                     </li>
                     <li>
-                      <mark>{2}</mark>
+                      <mark>2</mark>
                       <span>
                         <em>42001-BK</em>
                         — Фиксирующее кольцо
                       </span>
                     </li>
                     <li>
-                      <mark>{3}</mark>
+                      <mark>3</mark>
                       <span>
                         <em>43001-36</em>
                         — Линза Слим 36° для Атом 6
                       </span>
                     </li>
                     <li>
-                      <mark>{4}</mark>
+                      <mark>4</mark>
                       <span>
                         <em>40001-89</em>
                         — Монтажный комплект Зеро
                       </span>
                     </li>
                     <li>
-                      <mark>{5}</mark>
+                      <mark>5</mark>
                       <span>
                         <em>41021-BK</em>
                         — Рамка Симпл 68 круглая RAL 9005 черная
                       </span>
                     </li>
                     <li>
-                      <mark>{6}</mark>
+                      <mark>6</mark>
                       <span>
                         <em>46001-44</em>
                         — Защитная накладка IP44 для рамки Симпл 68 круглая
                       </span>
                     </li>
                     <li>
-                      <mark>{7}</mark>
+                      <mark>7</mark>
                       <span>
                         <em>44002-4K</em>
                         — Светодиодный модуль Атом 9 36В 210мА 9Вт 980лм 4000К 93+
                       </span>
                     </li>
                     <li>
-                      <mark>{8}</mark>
+                      <mark>8</mark>
                       <span>
                         <em>45002-02</em>
                         — Драйвер тока 9Вт 30-40В 210мА TRIAC для Атом 9 диммируемый
@@ -753,7 +755,7 @@
             <div class="footer__location-socials">
               <a class="social social_telegram" href="https://t.me/technolight_official" target="_blank"></a>
               <a class="social social_vk" href="https://vk.com/technolightru" target="_blank"></a>
-              <a class="social social_youtube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
+              <a class="social social_rutube" href="https://www.youtube.com/channel/UCt3wRyz1Z8b-WOlCHz43CuQ" target="_blank"></a>
             </div>
           </div>
         </div>
@@ -1010,6 +1012,15 @@
           <h3 class="modal__title">Заказ успешно отправлен</h3>
           <p class="modal__subtitle">Наш менеджер перезвонит Вам в ближайшее время</p>
           <span class="modal__check"></span>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-video hide" id="modalVideo">
+      <div class="modal__dialog">
+        <div class="modal__close"><button type="button" data-modal data-modal-action="close"></button></div>
+        <div class="modal__header">
+          <h3 class="modal__title"></h3>
+          <div class="modal__video"></div>
         </div>
       </div>
     </div>
