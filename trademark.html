@@ -31,19 +31,18 @@
       window.productDataLink = "https://anaragaev.github.io/technolight.layout/mocks/montaznyi-komplekt-soft-mini.json";
 
       // Дефолтный API URL дотов с рамкой и без рамки
-      window.dotsDataLink = "/mocks/dots.json";
-      // window.dotsDataLink = 'https://anaragaev.github.io/technolight.layout/mocks/';
-      //(function() {
-      //    const urlParams = new URLSearchParams(window.location.search);
-      //    if (urlParams.has('border')) window.dotsDataLink += 'dots-border.json';
-      //    else if (urlParams.has('mini')) window.dotsDataLink += 'dots-mini.json';
-      //    else if (urlParams.has('double')) window.dotsDataLink += 'dots-double-border.json';
-      //    else window.dotsDataLink += 'dots.json';
-      //})()
+      window.dotsDataLink = "https://truemistake.github.io/technolight.layout/mocks/";
+      (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("border")) window.dotsDataLink += "dots-border.json";
+        else if (urlParams.has("mini")) window.dotsDataLink += "dots-mini.json";
+        else if (urlParams.has("double")) window.dotsDataLink += "dots-double-border.json";
+        else window.dotsDataLink += "dots.json";
+      })();
 
       // API URL файлы для скачивания
       window.DownloadFilesDataLink = "https://s3files.technolight.ru/api/link?domain=technolight.ru";
-      window.DownloadVideosDataLink = "/mocks/video.json";
+      window.DownloadVideosDataLink = "/LayoutTechnolightRu/master/build/mocks/video.json";
 
       // API URL для получения корзины (Используется в Реактивном компоненте Продукта)
       window.getCartLink = "https://anaragaev.github.io/technolight.layout/mocks/cart-get.json";
@@ -828,6 +827,7 @@
               . Вы можете использовать линейные светильники для общего освещения и споты — в качестве акцентного. Одна идея объединяет в себе безграничные возможности для творчества.
             </p>
           </div>
+          <div class="informer__bigimg"><img src="https://aws.massive.ru/technolight/images/projects/content-picture.png" alt="" ></div>
           <div class="informer__description">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel dolores
